@@ -22,13 +22,6 @@ export const projectData = [
   },
   {
     id: 4,
-    title: "Password Generator",
-    description:
-      "Helps you generates random passwords, you can select what you want your password to entail and also you can copy generated password to clipboard.",
-    gitHubLink: "https://github.com/olawanlejoel/Password-Generator",
-  },
-  {
-    id: 5,
     title: "easy-dialog-modal",
     description:
       "A tiny React component library to make implementing modals and dialogs in your app a breeze.",
