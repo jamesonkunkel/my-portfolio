@@ -1,24 +1,24 @@
 export const projectData = [
   {
     id: 1,
-    title: "Todo List App",
+    title: "SLiM Web",
     description:
-      "A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.",
-    gitHubLink: "https://github.com/olawanlejoel/Todo-List-App",
+      "Full stack educational tool implementing the SLiM forward genetics simulation framework. Developed for the University of Toronto's Department of Ecology and Evolutionary Biology under a course development teaching assistantship.",
+    gitHubLink: "https://github.com/jamesonkunkel/slim-web",
   },
   {
     id: 2,
-    title: "Books Library App",
+    title: "Portfolio Site",
     description:
-      "A simple Book Library App built with JavaScript. It helps readers have a good list of books they are either currently reading or have finished reading.",
-    gitHubLink: "https://github.com/olawanlejoel/Book-Library",
+      "You're looking at it! Static site built to try out Next.js and deployed on Vercel.",
+    gitHubLink: "https://github.com/jamesonkunkel/my-portfolio",
   },
   {
     id: 3,
-    title: "Quotes Generator",
+    title: "Masters Thesis Simulation Code - Theoretical Population Genetics",
     description:
-      "Helps you generate quotes from about 1600 quotes written by different authors . Quotes are automatically copied to your clipboards.",
-    gitHubLink: "https://github.com/olawanlejoel/random-quote-generator",
+      "Framework for individual based simulations that enforce reproductive isolation by time (assortative mating) and distance. Written in Java.",
+    gitHubLink: "https://github.com/jamesonkunkel/ibpxibd",
   },
   {
     id: 4,
@@ -29,9 +29,9 @@ export const projectData = [
   },
   {
     id: 5,
-    title: "Twitter UI Clone",
+    title: "easy-dialog-modal",
     description:
-      "Simple Twitter UI clone built with TailwindCSS and Vue Js. This covers only the homepage of Twitter UI. This is cool to get started with TailwindCSS as it helps understand basic concepts.",
-    gitHubLink: "https://github.com/olawanlejoel/TwitterUI-clone",
+      "A tiny React component library to make implementing modals and dialogs in your app a breeze.",
+    gitHubLink: "https://github.com/jamesonkunkel/easy-dialog-modal",
   },
 ];
