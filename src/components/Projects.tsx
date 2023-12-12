@@ -1,7 +1,7 @@
 import { projectData } from "@/pages/api/projectData";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
   return (
@@ -12,6 +12,7 @@ const Projects = () => {
           projectData.map((project) => (
             <div className="project-card" key={project.id}>
               <div className="project-header">
+                <h3 className="font-bold">{project.title}</h3>
                 <i className="fa-regular fa-folder-open folder-icon"></i>
                 <div className="small-icons">
                   <a href={project.gitHubLink}>
@@ -19,7 +20,7 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-              <h3>{project.title}</h3>
+
               <p>{project.description}</p>
             </div>
           ))}

@@ -27,4 +27,18 @@ export const projectData = [
       "A tiny React component library to make implementing modals and dialogs in your app a breeze.",
     gitHubLink: "https://github.com/jamesonkunkel/easy-dialog-modal",
   },
+  {
+    id: 5,
+    title: "AI Translation App",
+    description:
+      "A Spanish translation app using NextJS and OpenAI's API built as a demo for an article I wrote on DEV.to. The project leverages AI to extract JSON formatted responses from OpenAI's API and display it in a user friendly way.",
+    gitHubLink: "https://github.com/jamesonkunkel/lang-ai-next",
+  },
+  {
+    id: 6,
+    title: "JSON Schema Designer",
+    description:
+      "A web application written using React and Typescript that allows users to design JSON schemas and export them as JSON files. The application is built using React, Typescript, and TailwindCSS. Node-graph functionality is implemented using the reactflow library.",
+    gitHubLink: "https://github.com/jamesonkunkel/schema-designer",
+  },
 ];
